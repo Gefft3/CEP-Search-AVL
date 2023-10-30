@@ -181,7 +181,7 @@ int main(void){
     tnode * arv; 
     avl_cria(&arv); 
     
-    FILE *arquivo = fopen("teste.csv","r");
+    FILE *arquivo = fopen("data.csv","r");
 
     if (arquivo == NULL) {
         perror("Erro ao abrir o arquivo");
